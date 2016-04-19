@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+<html>
+ 
+<head>
+ 
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+                <title>SMS</title>
+ 
+                <link rel="stylesheet" href="demo.css">
+                <link rel="stylesheet" href="form-basic.css">
+                <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+                <script type="text/javascript" src="scripts.js"></script>
+ 
+</head>
+ 
+ 
+                <header>
+                                <h1>SEND SMS TO ANY USER USING CLICKATELL API</h1>
+    </header>
+                <ul>
+        <li><a href="sms.html" class="active">Basic</a></li>
+        <li><a href="twilio.html">Twilio API</a></li>
+    </ul>
+ 
+ 
+ 
+    <div class="main-content">
+ 
+        <!-- You only need this form and the form-basic.css -->
+ 
+        <form class="form-basic" method="post" action="#">
+ 
+            <div class="form-title-row">
+                <h1>Enter The Details</h1>
+            </div>
+ 
+            <div class="form-row">
+                <label>
+                    <span>Mobile Number</span>
+                    <input type="number" name="number" placeholder="Enter No. without Country Code">
+                </label>
+            </div>
+ 
+            <div class="form-row">
+                <label>
+                    <span>Message</span>
+                    <textarea name="message" id = "message" placeholder="Enter The Message"></textarea>
+                </label>
+            </div>
+ 
+            <div class="form-row">
+                <button type="button" id = "btnSubmit">Submit</button>
+            </div>
+                                               
+                                                <div class="form-title-row">
+                <p>Can send Message to any user but the sms will be scrambled as its also not free to use this is for demo purpose</p>
+            </div>
+ 
+        </form>
+ 
+    </div>
+ 
+</body>
+ 
+</html>
